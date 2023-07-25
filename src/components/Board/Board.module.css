@@ -1,0 +1,12 @@
+.board {
+  max-width: 1200px;
+  height: 100vh;
+  min-height: 500px;
+  background: center / cover no-repeat url('/public/images/cork.png');
+  border: 30px solid var(--color-brown);
+  border-radius: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}

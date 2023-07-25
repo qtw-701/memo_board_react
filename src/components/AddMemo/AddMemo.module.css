@@ -1,0 +1,81 @@
+.form {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text {
+  font-family: 'Jost', sans-serif;
+  outline: none;
+  border: none;
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 50%);
+  border-radius: 5px;
+  padding: 0 3px;
+}
+
+.radio {
+  appearance: none;
+}
+
+.label {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: aqua;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.radio:checked + .label {
+  border: 3px solid var(--color-brown);
+}
+
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.blue {
+  background-color: var(--color-blue);
+}
+
+.pink {
+  background-color: var(--color-pink);
+}
+
+.green {
+  background-color: var(--color-green);
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    flex-wrap: wrap;
+  }
+
+  .text {
+    width: 100%;
+    margin: 0;
+  }
+}

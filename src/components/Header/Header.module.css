@@ -1,0 +1,10 @@
+.header {
+  font-family: 'Jost', sans-serif;
+}
+
+.title {
+  font-size: 46px;
+  text-align: center;
+  color: var(--color-black);
+  margin: 10px 0;
+}
