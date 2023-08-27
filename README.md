@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# 메모판
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- ## 설명
 
-## Available Scripts
+ <img src="public/images/memo_board(1200px).png" />
 
-In the project directory, you can run:
+자신이 적고 싶은 것을 입력하고 원하는 메모지의 색상을 선택한 후 Enter 키 또는 우측 하단 '+' 버튼을 누르면 메모판에 입력한 문자가 적힌 메모지가 붙는 메모판입니다.
 
-### `yarn start`
+--
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="public/images/memo.png" width="50%" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+메모지 색상은 노랑, 파랑, 분홍, 초록 총 4가지이며
+한 메모지 당 글자는 최대 140자를 적을 수 있습니다.
 
-### `yarn test`
+--
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="public/images/memo_test.gif" />
 
-### `yarn build`
+메모지에 마우스를 올라면 메모지 우측 상단에 해당 메모를 삭제할 수 있는 'X' 버튼이 나타나고 'X' 버튼을 클릭하면 해당 메모가 삭제됩니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 사용언어 : HTML, PostCSS(CSS), React(JavaScript)
